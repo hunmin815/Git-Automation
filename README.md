@@ -36,10 +36,12 @@ export env_Project_Name_Dir="Source OR Project Directory"   # ex) "/home/ubuntu/
 
 ### 3. 본인이 사용하시는 프로젝트에 맞게 변수 값 수정
 
-ProjectName_gitPush.sh 파일 내
+ProjectName_gitPush.sh 파일 내 UserName, Project_name 수정이 필요합니다.
 
 ```vim
+source /home/UserName/.bashrc                               # ex) source /home/ubuntu/.bashrc
 Project_name="My Project Name"                              # ex) "Git-Automation"
+logFile="/home/UserName/"$Project_name"_push.log"           # ex) logFile="/home/ubuntu/"$Project_name"_push.log"
 ```
 <br>
 
