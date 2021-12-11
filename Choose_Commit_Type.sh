@@ -70,7 +70,7 @@ while [ $ck -eq 0 ]; do
       echo ""
     fi
     echo "[OK] Commit Type : $CType_Str"
-    export env_CType=$CType_Str
+    env_CType="$CType_Str"
   else
     ck=0
     echo "[ERROR] $CType_Num is not number."
