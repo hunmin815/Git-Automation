@@ -1,5 +1,3 @@
-#!/bin/bash
-
 cd $SourceDir
 CType_Num=0
 ck=0
