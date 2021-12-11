@@ -3,10 +3,10 @@
 date=`date`
 github_id=$env_github_id
 github_Token=$env_github_Token
-github_Address=$env_autoTradeGit
+github_Address=$env_autoTrade_git
 Project_name="autoTrade2"
 logFile="/home/ubuntu/"$Project_name"_push.log"
-SourceDir=$env_autoTradeDir
+SourceDir=$env_autoTrade_Dir
 
 cd $SourceDir
 
