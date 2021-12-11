@@ -1,9 +1,11 @@
 # Git-Automation
+
 git push를 자동화 하기 위한 간단한 스크립트 파일입니다.<br>
 **git init, git remote add 후에 사용하시면 됩니다.**
 <br>
 
 ### 1. gitPush.sh 앞에는 자신의 프로젝트 명을 적어주세요.
+
 ex) homepage_gitpush.sh
 
 <br>
@@ -14,18 +16,19 @@ ex) homepage_gitpush.sh
 
 ```vim
 # Git Access Info
-export env_github_id="Github ID"
-export env_github_Token="Gitgub Access Token"
+export env_github_id="Github ID"                            # ex) "abc"
+export env_github_Token="Gitgub Access Token"               # ex) "etiwajiojtiojio@#$"
 #
 
 # Git remote Address
-export env_Project_Name_git="github.com/Address"
+export env_Project_Name_git="github.com/Address"            # ex) "github.com/hunmin815/Git-Automation.git"
 #
 
 # SourceDir
-export env_Project_Name_Dir="Source OR Project Directory"
+export env_Project_Name_Dir="Source OR Project Directory"   # ex) "/home/ubuntu/Git-Automation/"
 #
 ```
+
 **Project_Name 부분은 자신의 프로젝트명을 넣어주세요**
 
 <br>
@@ -35,5 +38,5 @@ export env_Project_Name_Dir="Source OR Project Directory"
 ProjectName_gitPush.sh 파일 내
 
 ```vim
-Project_name="My Project Name"
+Project_name="My Project Name"                              # ex) "Git-Automation"
 ```
